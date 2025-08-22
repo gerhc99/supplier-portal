@@ -1,0 +1,5 @@
+integrations:
+  forge:
+    portal.appolowallet.com:
+      site-id: 2825882
+      server-id: 923506
