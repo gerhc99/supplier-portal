@@ -12,11 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('invoices', function (Blueprint $table) {
-            $table->string('rfc_receptor')->nullable();
+           /* $table->string('rfc_receptor')->nullable();
             $table->string('rfc_emisor')->nullable();
             $table->string('sello_cfd')->nullable();
             $table->string('total')->nullable();
-            $table->string('status_sat')->nullable();
+            $table->string('status_sat')->nullable();*/
     });
     }
 

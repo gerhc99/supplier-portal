@@ -24,8 +24,8 @@ return new class extends Migration
             $table->string('delivery_address')->nullable();
             $table->string('delivery_terms')->nullable();
             $table->string('language_code')->nullable();
-            $table->string('note_id')->nullable(false);
-            $table->string('pre_accounting_id')->nullable(false);
+            $table->string('note_id')->nullable();
+            $table->string('pre_accounting_id')->nullable();
         });
     }
 

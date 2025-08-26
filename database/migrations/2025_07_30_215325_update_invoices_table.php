@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('invoices', function (Blueprint $table) {
-        $table->string('invoice_id')->nullable()->change();
+       /* $table->string('invoice_id')->nullable()->change();
         $table->date('invoice_date')->nullable()->change();
         $table->date('due_date')->nullable()->change();
         $table->string('curr_rate')->nullable()->change();
@@ -22,7 +22,7 @@ return new class extends Migration
         $table->string('rowversion')->nullable()->change();
         $table->string('acc_year_invoice_date')->nullable()->change();
         $table->string('acc_period_invoice_date')->nullable()->change();
-        $table->date('bi_timestamp')->nullable()->change();
+        $table->date('bi_timestamp')->nullable()->change();*/
 
 
     });

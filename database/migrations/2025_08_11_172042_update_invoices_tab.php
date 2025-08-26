@@ -12,10 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('invoices', function (Blueprint $table) {
-            $table->string('xml_path')->nullable();
+           /* $table->string('xml_path')->nullable();
             $table->string('pdf_path')->nullable();
             $table->string('xml_path_file_names')->nullable();
-            $table->string('pdf_path_file_names')->nullable();
+            $table->string('pdf_path_file_names')->nullable();*/
     });
     }
 
