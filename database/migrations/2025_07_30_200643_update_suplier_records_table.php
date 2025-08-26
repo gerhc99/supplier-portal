@@ -13,7 +13,7 @@ return new class extends Migration
     {
         //
         Schema::table('supplier_records', function (Blueprint $table) {
-            $table->string('razon_social')->nullable()->change();
+           /* $table->string('razon_social')->nullable()->change();
             $table->string('giro')->nullable()->change();
             $table->string('repse')->nullable()->change();
             $table->string('rfc')->nullable()->change();
@@ -52,7 +52,8 @@ return new class extends Migration
             $table->string('verificador_nombre')->nullable()->change();
             $table->string('verificador_firma')->nullable()->change();
             $table->string('verificador_fecha')->nullable()->change();
-            $table->string('observaciones_compras')->nullable()->change(); 
+            $table->string('observaciones_compras')->nullable()->change();
+           */
         });
     }
 

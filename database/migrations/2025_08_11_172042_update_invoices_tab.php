@@ -25,10 +25,10 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('invoices', function (Blueprint $table) {
-            $table->dropColumn('xml_path');
+           /* $table->dropColumn('xml_path');
             $table->dropColumn('pdf_path');
             $table->string('xml_path_file_names')->nullable();
-            $table->string('pdf_path_file_names')->nullable();
+            $table->string('pdf_path_file_names')->nullable();*/
     });
     }
 };

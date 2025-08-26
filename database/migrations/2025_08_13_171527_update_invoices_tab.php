@@ -26,11 +26,11 @@ return new class extends Migration
     public function down(): void
     {
          Schema::table('invoices', function (Blueprint $table) {
-            $table->dropColumn('rfc_receptor');
+            /*$table->dropColumn('rfc_receptor');
             $table->dropColumn('rfc_emisor');
             $table->dropColumn('sello_cfd');
             $table->dropColumn('total');
-            $table->dropColumn('status_sat');
+            $table->dropColumn('status_sat');*/
     });
     }
 };
